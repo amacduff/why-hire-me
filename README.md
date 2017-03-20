@@ -1,2 +1,2 @@
 # why-hire-me
-5 reasons why you should hire me
+5 Reasons Why You Should Hire Me
