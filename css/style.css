@@ -56,12 +56,16 @@ h1 {
 /* Testimonials Styles */
 #testimonials {
   border-top: 1px solid #F0F0F0; }
+  #testimonials h1 {
+    padding-bottom: 4rem; }
 
 blockquote span {
   color: #54BCEB;
+  display: block;
   font-size: 3rem;
   font-weight: 700;
-  line-height: 1rem; }
+  line-height: 1rem;
+  margin-bottom: .25rem; }
 blockquote p {
   font-style: italic;
   margin-bottom: 1rem; }
