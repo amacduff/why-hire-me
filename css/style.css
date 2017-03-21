@@ -21,9 +21,12 @@ header {
 
 header,
 main {
-  padding: 10% 5%; }
+  padding: 20% 5%; }
 
 /* Main Styles */
+article {
+  margin-bottom: 20%; }
+
 h1 {
   font-size: 1.5rem;
   font-weight: 700;
