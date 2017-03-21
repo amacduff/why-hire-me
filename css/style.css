@@ -88,6 +88,13 @@ blockquote footer {
   font-size: 0.75rem;
   text-transform: uppercase; }
 
+/* Thanks Styles */
+#thanks {
+  border-top: 1px solid #F0F0F0; }
+  #thanks h1 {
+    padding-bottom: 0; }
+
+/* Footer Styles */
 .page-bottom {
   background: #FAFAFA;
   color: rgba(0, 0, 0, 0.5); }
