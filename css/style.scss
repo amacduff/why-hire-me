@@ -33,6 +33,12 @@ i {
     font-style: italic;
 }
 
+a {
+    border-bottom: 1px solid $color-text;
+    color: $color-text;
+    text-decoration: none;
+}
+
 header,
 section,
 .page-bottom {

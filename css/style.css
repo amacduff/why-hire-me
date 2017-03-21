@@ -10,6 +10,11 @@ body {
 i {
   font-style: italic; }
 
+a {
+  border-bottom: 1px solid #222222;
+  color: #222222;
+  text-decoration: none; }
+
 header,
 section,
 .page-bottom {
