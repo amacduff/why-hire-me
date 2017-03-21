@@ -8,6 +8,57 @@ $color-accent: #54BCEB;
 
 // Typography
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700');
 
 $font-text: 'Open Sans', sans-serif;
+
+
+/* Global Styles */
+
+body {
+	color: $color-text;
+	font: {
+		family: $font-text;
+	}
+    line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+/* Header Styles */
+
+header {
+    background: #F0F0F0;
+
+    h1 {
+        font: {
+            size: 5rem;
+            weight: 700;
+        }
+        padding: 2rem 0;
+    }
+
+    h2 {
+        font: {
+            size: 0.75rem;
+        }
+        text-transform: uppercase;
+    }
+
+}
+
+header,
+main {
+    padding: 10% 5%;
+}
+
+
+/* Main Styles */
+
+h1 {
+    font: {
+        size: 3rem;
+        weight: 700;
+    }
+    padding-bottom: 2rem;
+}
