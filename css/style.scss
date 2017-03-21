@@ -99,20 +99,39 @@ h1 {
 
 /* Reasons Styles */
 
-#reasons span {
-    background: $color-accent;
-    border-radius: 50%;
-    box-sizing: border-box;
-    color: $color-text-secondary;
-    display: block;
-    font: {
-        weight: 700;
+#reasons {
+
+    span {
+        background: $color-accent;
+        border-radius: 50%;
+        box-sizing: border-box;
+        color: $color-text-secondary;
+        display: block;
+        font: {
+            weight: 700;
+        }
+        height: 2rem;
+        margin-bottom: 1rem;
+        padding: .25rem;
+        text-align: center;
+        width: 2rem;
     }
-    height: 2rem;
-    margin-bottom: 1rem;
-    padding: .25rem;
-    text-align: center;
-    width: 2rem;
+
+    ul {
+        margin-top: 1rem;
+
+        li {
+
+            &:before {
+                color: $color-text-subtle;
+                content: "●";
+                margin-right: .5rem;
+            }
+
+        }
+
+    }
+
 }
 
 

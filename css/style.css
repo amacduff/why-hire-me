@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Variables */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
 /* Global Styles */
@@ -59,6 +60,12 @@ h1 {
   padding: .25rem;
   text-align: center;
   width: 2rem; }
+#reasons ul {
+  margin-top: 1rem; }
+  #reasons ul li:before {
+    color: rgba(0, 0, 0, 0.5);
+    content: "●";
+    margin-right: .5rem; }
 
 /* Testimonials Styles */
 #testimonials {
