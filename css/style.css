@@ -12,7 +12,7 @@ i {
 
 header,
 section,
-footer {
+.page-bottom {
   padding: 20% 5%; }
 
 /* Header Styles */
@@ -25,6 +25,7 @@ header {
     line-height: 1.35;
     padding: 1rem 0; }
   header h2 {
+    color: rgba(0, 0, 0, 0.5);
     font-size: 0.75rem;
     text-transform: uppercase; }
 
@@ -71,7 +72,12 @@ blockquote p {
   font-style: italic;
   margin-bottom: 1rem; }
 blockquote footer {
+  color: rgba(0, 0, 0, 0.5);
   font-size: 0.75rem;
   text-transform: uppercase; }
+
+.page-bottom {
+  background: #FAFAFA;
+  color: rgba(0, 0, 0, 0.5); }
 
 /*# sourceMappingURL=style.css.map */

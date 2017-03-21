@@ -4,9 +4,11 @@
 
 $color-text: #222222;
 $color-text-secondary: #FFFFFF;
+$color-text-subtle: rgba(0,0,0,0.5);
 $color-accent: #54BCEB;
 $color-accent-secondary: #41CDD4;
 $color-tertiary: #F0F0F0;
+$color-subtle: #FAFAFA;
 
 
 // Typography
@@ -33,7 +35,7 @@ i {
 
 header,
 section,
-footer {
+.page-bottom {
     padding: 20% 5%;
 }
 
@@ -58,6 +60,7 @@ header {
     }
 
     h2 {
+        color: $color-text-subtle;
         font: {
             size: 0.75rem;
         }
@@ -139,10 +142,17 @@ blockquote {
     }
 
     footer {
+        color: $color-text-subtle;
         font: {
             size: 0.75rem;
         }
         text-transform: uppercase;
     }
 
+}
+
+
+.page-bottom {
+    background: $color-subtle;
+    color: $color-text-subtle;
 }
