@@ -7,6 +7,9 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased; }
 
+i {
+  font-style: italic; }
+
 /* Header Styles */
 header {
   background-image: linear-gradient(135deg, #54BCEB, #41CDD4); }
@@ -21,12 +24,14 @@ header {
     text-transform: uppercase; }
 
 header,
-main {
+section {
   padding: 20% 5%; }
 
 /* Main Styles */
 article {
   margin-bottom: 20%; }
+  article:last-child {
+    margin-bottom: 0; }
 
 h1 {
   font-size: 1.5rem;
@@ -34,7 +39,8 @@ h1 {
   line-height: 1.35;
   padding-bottom: 1rem; }
 
-span {
+/* Reasons Styles */
+#reasons span {
   background: #54BCEB;
   border-radius: 50%;
   box-sizing: border-box;
@@ -46,5 +52,21 @@ span {
   padding: .25rem;
   text-align: center;
   width: 2rem; }
+
+/* Testimonials Styles */
+#testimonials {
+  border-top: 1px solid #F0F0F0; }
+
+blockquote span {
+  color: #54BCEB;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1rem; }
+blockquote p {
+  font-style: italic;
+  margin-bottom: 1rem; }
+blockquote footer {
+  font-size: 0.75rem;
+  text-transform: uppercase; }
 
 /*# sourceMappingURL=style.css.map */
