@@ -10,6 +10,11 @@ body {
 i {
   font-style: italic; }
 
+header,
+section,
+footer {
+  padding: 20% 5%; }
+
 /* Header Styles */
 header {
   background-image: linear-gradient(135deg, #54BCEB, #41CDD4); }
@@ -22,10 +27,6 @@ header {
   header h2 {
     font-size: 0.75rem;
     text-transform: uppercase; }
-
-header,
-section {
-  padding: 20% 5%; }
 
 /* Main Styles */
 article {

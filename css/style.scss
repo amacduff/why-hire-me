@@ -31,6 +31,12 @@ i {
     font-style: italic;
 }
 
+header,
+section,
+footer {
+    padding: 20% 5%;
+}
+
 
 /* Header Styles */
 
@@ -58,11 +64,6 @@ header {
         text-transform: uppercase;
     }
 
-}
-
-header,
-section {
-    padding: 20% 5%;
 }
 
 
