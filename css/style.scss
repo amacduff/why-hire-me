@@ -42,7 +42,7 @@ a {
 header,
 section,
 .page-bottom {
-    padding: 20% 5%;
+    padding: 4rem 5%;
 }
 
 
@@ -54,6 +54,7 @@ header {
         135deg,
         $color-accent, $color-accent-secondary
     );
+    box-sizing: border-box;
 
     h1 {
         color: $color-text-secondary;
@@ -79,7 +80,7 @@ header {
 /* Main Styles */
 
 article {
-    margin-bottom: 20%;
+    margin-bottom: 4rem;
 
     &:last-child {
         margin-bottom: 0;
@@ -193,5 +194,42 @@ blockquote {
 
 .page-bottom {
     background: $color-subtle;
+    box-sizing: border-box;
     color: $color-text-subtle;
+}
+
+
+/* Media Queries */
+
+@media screen and (min-width: 426px) {
+
+    header {
+        height: 100%;
+        position: fixed;
+        width: 50%;
+
+        h1 {
+            max-width: 18rem;
+        }
+
+    }
+
+    main,
+    .page-bottom {
+        float: right;
+        width: 50%;
+    }
+
+    section {
+        padding: 4rem 10%;
+    }
+
+    p {
+        max-width: 30rem;
+    }
+
+    .page-bottom {
+        clear: right;
+    }
+
 }

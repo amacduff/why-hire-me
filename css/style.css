@@ -19,11 +19,12 @@ a {
 header,
 section,
 .page-bottom {
-  padding: 20% 5%; }
+  padding: 4rem 5%; }
 
 /* Header Styles */
 header {
-  background-image: linear-gradient(135deg, #54BCEB, #41CDD4); }
+  background-image: linear-gradient(135deg, #54BCEB, #41CDD4);
+  box-sizing: border-box; }
   header h1 {
     color: #FFFFFF;
     font-size: 1.75rem;
@@ -37,7 +38,7 @@ header {
 
 /* Main Styles */
 article {
-  margin-bottom: 20%; }
+  margin-bottom: 4rem; }
   article:last-child {
     margin-bottom: 0; }
 
@@ -97,6 +98,30 @@ blockquote footer {
 /* Footer Styles */
 .page-bottom {
   background: #FAFAFA;
+  box-sizing: border-box;
   color: rgba(0, 0, 0, 0.5); }
+
+/* Media Queries */
+@media screen and (min-width: 426px) {
+  header {
+    height: 100%;
+    position: fixed;
+    width: 50%; }
+    header h1 {
+      max-width: 18rem; }
+
+  main,
+  .page-bottom {
+    float: right;
+    width: 50%; }
+
+  section {
+    padding: 4rem 10%; }
+
+  p {
+    max-width: 30rem; }
+
+  .page-bottom {
+    clear: right; } }
 
 /*# sourceMappingURL=style.css.map */
