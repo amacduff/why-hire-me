@@ -11,9 +11,10 @@ body {
 header {
   background: #F0F0F0; }
   header h1 {
-    font-size: 5rem;
+    font-size: 1.75rem;
     font-weight: 700;
-    padding: 2rem 0; }
+    line-height: 1.35;
+    padding: 1rem 0; }
   header h2 {
     font-size: 0.75rem;
     text-transform: uppercase; }
@@ -24,12 +25,22 @@ main {
 
 /* Main Styles */
 h1 {
-  font-size: 3rem;
+  font-size: 1.5rem;
   font-weight: 700;
-  padding-bottom: 2rem; }
+  line-height: 1.35;
+  padding-bottom: 1rem; }
 
 span {
-  border: 3px solid #54BCEB;
-  border-radius: 50%; }
+  background: #54BCEB;
+  border-radius: 50%;
+  box-sizing: border-box;
+  color: white;
+  display: block;
+  font-weight: 700;
+  height: 2rem;
+  margin-bottom: 1rem;
+  padding: .25rem;
+  text-align: center;
+  width: 2rem; }
 
 /*# sourceMappingURL=style.css.map */
