@@ -3,7 +3,9 @@
 // Color
 
 $color-text: #222222;
+$color-text-secondary: #FFFFFF;
 $color-accent: #54BCEB;
+$color-accent-secondary: #41CDD4;
 
 
 // Typography
@@ -28,9 +30,14 @@ body {
 /* Header Styles */
 
 header {
-    background: #F0F0F0;
+    background-image:
+    linear-gradient(
+      135deg,
+      $color-accent, $color-accent-secondary
+    );
 
     h1 {
+        color: $color-text-secondary;
         font: {
             size: 1.75rem;
             weight: 700;
@@ -73,7 +80,7 @@ span {
     background: $color-accent;
     border-radius: 50%;
     box-sizing: border-box;
-    color: white;
+    color: $color-text-secondary;
     display: block;
     font: {
         weight: 700;
